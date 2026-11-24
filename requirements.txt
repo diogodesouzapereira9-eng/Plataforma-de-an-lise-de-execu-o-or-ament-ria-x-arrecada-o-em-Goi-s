@@ -1,0 +1,11 @@
+# Versões testadas no ambiente de desenvolvimento deste projeto
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+reportlab==5.0.1
+
+# Painel BI. Depois de instalar, rode `pip freeze | findstr streamlit` (Windows)
+# ou `pip freeze | grep -i streamlit` e troque a linha abaixo pela versão exata instalada.
+streamlit>=1.40,<2
